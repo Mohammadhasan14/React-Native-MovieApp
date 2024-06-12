@@ -45,7 +45,7 @@ const Home = () => {
     const fetchMovies = async () => {
       const urlTrendingMovies = 'https://api.themoviedb.org/3/trending/movie/week?language=en-US';
       const urlPopularMovies = 'https://api.themoviedb.org/3/movie/popular?language=en-US&page=1';
-      const apiKey = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3YTU2MGYyYjBiZDk1M2JmZjYyM2ExMDA4M2VlZjY0OSIsInN1YiI6IjY2NGM1YmIxNTIzMDg0NjRhMjE5ODlhYiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.M0EqzXnfFzqdLXfRMOd646pc8fFjJBp-ijJabzrqgjE"
+      const apiKey = "my api key"
 
       const options = {
         headers: {
